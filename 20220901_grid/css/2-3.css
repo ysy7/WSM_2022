@@ -1,0 +1,77 @@
+h1 {
+    width: 800px;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 80px repeat(5, 1fr);
+    max-width: 800px;
+    height: 400px;
+}
+
+.days-of-the-week {
+    background-color: coral;
+    color: white;
+}
+
+.period {
+    background-color: coral;
+    color: white;
+
+}
+
+.grid-item {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.grid-item:nth-child(11){
+    /* php */
+    grid-row: 2/4;
+    grid-column: 5/6;
+}
+.grid-item:nth-child(19){
+    /* wsm */
+    grid-row: 4/6;
+    grid-column: 2/3;
+}
+.grid-item:nth-child(21){
+    /* wsm */
+    grid-row: 4/6;
+    grid-column: 4/5;
+}
+.grid-item:nth-child(22){
+    /* 코테 */
+    grid-row: 4/6;
+    grid-column: 5/6;
+}
+.grid-item:nth-child(28){
+    /* java */
+    grid-row: 6/8;
+    grid-column: 2/3;
+}
+.grid-item:nth-child(29){
+    /* 자료구조*/
+    grid-row: 6/8;
+    grid-column: 3/4;
+}
+.grid-item:nth-child(32){
+    /* JS, AI*/
+    grid-row: 6/8;
+    grid-column: 6/7;
+}
+.grid-item:nth-child(34){
+    /* 창체*/
+    grid-row: 7/9;
+    grid-column: 4/5;
+}
+.grid-item:nth-child(1){
+    border: none;
+}
