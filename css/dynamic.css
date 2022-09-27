@@ -22,7 +22,8 @@
     display: grid;
     grid-template-columns: repeat(7, 1fr);
 }
-.grid-item{
+
+.grid-item {
     display: flex;
     justify-content: center;
     align-items: center;
